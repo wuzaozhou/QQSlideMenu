@@ -15,4 +15,5 @@ UINavigationController *nav = (UINavigationController *)self.menuVc;
 [nav pushViewController:vc animated:false];
 
 二、主界面push
+
 [self.navgationController pushViewController:vc animated:YES];
