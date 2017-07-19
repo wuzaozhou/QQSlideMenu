@@ -6,6 +6,7 @@ UITabBarController *tabbarVC = (UITabBarController *)self.menuVc.rootViewControl
 UINavigationController *nav = (UINavigationController *)tabbarVC.selectedViewController;     
 [nav pushViewController:vc animated:false];
 
+
 2、如果住控制器UINavigationController页面push做法
 UINavigationController *nav = (UINavigationController *)self.menuVc;
 [nav pushViewController:vc animated:false];
