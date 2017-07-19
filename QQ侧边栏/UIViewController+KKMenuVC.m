@@ -11,19 +11,6 @@
 
 @implementation UIViewController (KKMenuVC)
 
-//- (KKMenuViewController *)menuVc{
-//    UIViewController *sldeMenu = self.parentViewController;
-//    while (sldeMenu) {
-//        if ([sldeMenu isKindOfClass:[KKMenuViewController class]]) {
-//            return (KKMenuViewController *)sldeMenu;
-//        } else if (sldeMenu.parentViewController && sldeMenu.parentViewController != sldeMenu) {
-//            sldeMenu = sldeMenu.parentViewController;
-//        } else {
-//            sldeMenu = nil;
-//        }
-//    }
-//    return nil;
-//}
 
 - (KKMenuViewController *)menuVc {
     UIViewController *sldeMenu = self.parentViewController;
